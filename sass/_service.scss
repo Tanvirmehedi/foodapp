@@ -1,0 +1,55 @@
+.ourservice {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 2px dotted #747678;
+    &:hover .ourservice__boxImg {
+      transition: all 0.2s linear;
+      width: 208px;
+      height: 208px;
+      cursor: pointer;
+    }
+  }
+  .imgdiv {
+    width: 208px;
+    height: 208px;
+    border: 2px solid orangered;
+    border-radius: 50%;
+    position: relative;
+  }
+  &__boxImg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #20aa9c;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all 0.3s ease-out;
+    transform: translate(-50%, -50%);
+  }
+
+  &__boxTitle {
+    text-transform: capitalize;
+    font-size: 2rem;
+    padding-top: 10px;
+    letter-spacing: 2px;
+  }
+  &__boxPrag {
+    padding: 6px 20%;
+    color: rgb(68, 67, 67);
+    text-align: center;
+  }
+}

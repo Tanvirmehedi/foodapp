@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --nav-font: "Unlock", cursive;
+  --body-font: "Roboto", sans-serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%; //10 px
+}
+body {
+  overflow-x: hidden;
+  line-height: 1.5;
+  font-family: var(--body-font);
+}

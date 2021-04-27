@@ -1,0 +1,42 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 200px;
+  min-height: 70.2vh;
+  font-size: 1.5rem;
+  color: #fff;
+  &__heading {
+    font-size: 4rem;
+    font-style: italics;
+    letter-spacing: 5px;
+    font-family: var(--nav-font);
+  }
+  &__parg {
+    padding: 10px 17rem;
+    justify-content: center;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+  &__btn {
+    background-color: #20aa9c;
+    color: #fff;
+    margin-top: 20px;
+  }
+  &::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+        180deg,
+        rgba(34, 34, 34, 0.541),
+        rgba(0, 0, 0, 0.486)
+      ),
+      url(../img/banner/bannerbg1.jpg);
+    background-size: cover;
+
+    position: absolute;
+    z-index: -100;
+  }
+}
