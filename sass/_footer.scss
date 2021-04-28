@@ -1,0 +1,14 @@
+.footer {
+  padding: 1.5rem 0;
+  background-color: #222;
+  opacity: 0.9;
+  &__contentBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      color: #fff;
+      letter-spacing: 2px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.contactus {
+  position: relative;
+  height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.658));
+  #bgvid {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  &__submitBtn {
+    background-color: #20aa9c;
+    color: #fff;
+  }
+  .title {
+    margin: 0;
+    padding-top: 2rem;
+  }
+}

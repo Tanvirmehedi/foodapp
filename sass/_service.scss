@@ -1,6 +1,6 @@
 .ourservice {
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
   &__content {
     display: flex;
     justify-content: center;
@@ -11,27 +11,27 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    margin: 20px;
+    padding: 2rem;
+    margin: 2rem;
     border-radius: 15px;
     border: 2px dotted #747678;
     &:hover .ourservice__boxImg {
       transition: all 0.2s linear;
-      width: 208px;
-      height: 208px;
+      width: 20.8rem;
+      height: 20.8rem;
       cursor: pointer;
     }
   }
   .imgdiv {
-    width: 208px;
-    height: 208px;
+    width: 20.8rem;
+    height: 20.8rem;
     border: 2px solid orangered;
     border-radius: 50%;
     position: relative;
   }
   &__boxImg {
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    height: 20rem;
     border-radius: 50%;
     border: 2px solid #20aa9c;
     position: absolute;
@@ -44,11 +44,11 @@
   &__boxTitle {
     text-transform: capitalize;
     font-size: 2rem;
-    padding-top: 10px;
+    padding-top: 1rem;
     letter-spacing: 2px;
   }
   &__boxPrag {
-    padding: 6px 20%;
+    padding: 0.6rem 20%;
     color: rgb(68, 67, 67);
     text-align: center;
   }
