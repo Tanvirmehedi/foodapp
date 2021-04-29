@@ -1,10 +1,25 @@
 .ourservice {
   margin-top: 10rem;
   margin-bottom: 5rem;
+  @media screen and(max-width:768px) {
+    margin-top: 15rem;
+  }
+  @media screen and (max-width: 425px) {
+    margin-top: 39rem;
+  }
+  @media screen and (max-width: 414px) {
+    margin-top: 51rem;
+  }
+  @media screen and(max-width:320px) {
+    margin-top: 34rem;
+  }
   &__content {
     display: flex;
     justify-content: center;
     align-items: center;
+    @media screen and(max-width:768px) {
+      flex-direction: column;
+    }
   }
   &__box {
     display: flex;
@@ -46,10 +61,22 @@
     font-size: 2rem;
     padding-top: 1rem;
     letter-spacing: 2px;
+    @media screen and (max-width: 425px) {
+      font-size: 6rem;
+    }
+    @media screen and (max-width: 320px) {
+      font-size: 6rem;
+    }
   }
   &__boxPrag {
     padding: 0.6rem 20%;
     color: rgb(68, 67, 67);
     text-align: center;
+    @media screen and (max-width: 425px) {
+      font-size: 4rem;
+    }
+    @media screen and (max-width: 320px) {
+      font-size: 4rem;
+    }
   }
 }

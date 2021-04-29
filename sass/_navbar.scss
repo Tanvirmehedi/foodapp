@@ -2,22 +2,42 @@
   position: relative;
   display: flex;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
   &__logoBox {
     margin: 0.5rem;
   }
   &__logo {
     height: 7rem;
+    @media screen and(max-width:425px) {
+      height: 18rem;
+    }
+    @media screen and (max-width: 320px) {
+      height: 19rem;
+    }
   }
   &__nav-item {
     display: flex;
     justify-content: flex-end;
     width: 100%;
+    @media screen and (max-width: 768px) {
+      justify-content: center;
+      margin: 1rem 0;
+    }
   }
   &__li {
     list-style: none;
     font-size: 1.4rem;
     letter-spacing: 1.4px;
     margin-right: 1rem;
+    @media screen and (max-width: 425px) {
+      font-size: 3.4rem;
+      margin: 3rem 0;
+    }
+    @media screen and (max-width: 320px) {
+      font-size: 4rem;
+    }
   }
   &__nav-links {
     text-transform: uppercase;

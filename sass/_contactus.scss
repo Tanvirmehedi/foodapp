@@ -2,6 +2,12 @@
   position: relative;
   height: 60vh;
   background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.658));
+  @media screen and (max-width: 425px) {
+    height: 40vh;
+  }
+  @media screen and (max-width: 320px) {
+    padding-top: 5rem;
+  }
   #bgvid {
     object-fit: cover;
     width: 100%;

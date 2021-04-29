@@ -19,6 +19,18 @@ a {
 }
 html {
   font-size: 62.5%; //10 px
+  @media screen and (max-width: 768px) {
+    font-size: 34.5%;
+  }
+  @media screen and (max-width: 425px) {
+    font-size: 16.5%;
+  }
+  @media screen and(max-width:375px) {
+    font-size: 19.5%;
+  }
+  @media screen and (max-width: 320px) {
+    font-size: 15.5%;
+  }
 }
 body {
   overflow-x: hidden;

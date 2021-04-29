@@ -6,8 +6,18 @@
   background-position-y: -31rem;
   background-repeat: no-repeat;
   background-size: 100%;
-  @media only screen and(min-width:1440em) {
-    background-position-y: -41.6rem;
+  @media screen and(max-width:768px) {
+    background-position-y: -21rem;
+  }
+  @media screen and(max-width:425px) {
+    min-height: 31vh;
+  }
+  @media screen and (max-width: 414px) {
+    min-height: 19vh;
+  }
+  @media screen and (max-width: 320px) {
+    min-height: 31vh;
+    background-position-y: 0;
   }
 
   &__contentBox {

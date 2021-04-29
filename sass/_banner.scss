@@ -7,18 +7,31 @@
   min-height: 70.2vh;
   font-size: 1.5rem;
   color: #fff;
-
+  @media screen and (max-width: 425px) {
+    min-height: 64.2vh;
+  }
   &__heading {
     font-size: 4rem;
     font-style: italics;
     letter-spacing: 5px;
     font-family: var(--nav-font);
+    @media screen and (max-width: 425px) {
+      font-size: 8rem;
+    }
   }
   &__parg {
     padding: 1rem 17rem;
     justify-content: center;
     text-align: center;
     font-family: "Courier New", Courier, monospace;
+    @media screen and (max-width: 425px) {
+      font-size: 3.4rem;
+      padding: 12rem 0rem;
+    }
+    @media screen and (max-width: 320px) {
+      padding: 7rem 0;
+      font-size: 3.3rem;
+    }
   }
   &__btn {
     background-color: #20aa9c;
